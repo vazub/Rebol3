@@ -12,15 +12,15 @@ src/boot/boot-code.reb
 src/boot/host-init.reb
 src/boot/gen-natives.reb
 src/boot/gen-symbols.reb
-src/core/b-boot.c
-src/include/ext-types.h
-src/include/host-*
-src/include/reb-dialect.h
-src/include/reb-evtypes.h
-src/include/reb-lib-lib.h
-src/include/reb-lib.h
-src/include/reb-types.h
-src/include/gen-*
+# src/core/b-boot.c
+# src/include/ext-types.h
+# src/include/host-*
+# src/include/reb-dialect.h
+# src/include/reb-evtypes.h
+# src/include/reb-lib-lib.h
+# src/include/reb-lib.h
+# src/include/reb-types.h
+# src/include/gen-*
 src/tools/reb-lib-doc.txt
 reb-lib-doc.txt
 src/mezz/base-collected.reb
