@@ -90,6 +90,8 @@ Now you will be able to use the words, provided by this module, e.g.:
 
 ### Building Rebol
 
+#### Option 1:
+
 Rebol itself is not a compiler (like [Red language](https://www.red-lang.org/)) but just an interpreter. You must have some compiler of your choice to compile Rebol. For Windows you may want to use any of these:
 1. [Microsoft Visual Studio](https://visualstudio.microsoft.com/)
 2. [CLANG](https://clang.llvm.org/)
@@ -102,6 +104,9 @@ For a local use, you just do: `siskin <SOME-NEST-FILE>`, which starts CLI in an 
 The Siskin builder itself may be used as an example, how to build a custom utility based on Rebol sources.
 The specification is [defined in this `*.nest` file](https://github.com/Siskin-framework/Builder/blob/master/tree/rebol/siskin.nest), where important is [`CUSTOM_STARTUP` define](https://github.com/Siskin-framework/Builder/blob/756d9531e2f461c22d626ca5458dad4e0c8bd3cd/tree/rebol/siskin.nest#L36) and [some files](https://github.com/Siskin-framework/Builder/blob/756d9531e2f461c22d626ca5458dad4e0c8bd3cd/tree/rebol/siskin.nest#L22-L30), which should be included and [some optional Rebol parts](https://github.com/Siskin-framework/Builder/blob/756d9531e2f461c22d626ca5458dad4e0c8bd3cd/tree/rebol/siskin.nest#L14-L18) if needed.
 
+#### Option 2:
+
+Check out the new build flow, using Zig compiler toolchain [here](make/README.md).
 
 ### Screenshots
 
